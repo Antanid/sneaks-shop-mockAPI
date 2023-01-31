@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.textNothing {
+    margin-top: 50px;
+    width: 290px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    .img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .textH4 {
+        h4 {
+            margin-top: 24px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            opacity: 0.4;
+            margin-bottom: 70px;
+        }
+    }
+
+    .greenButton {
+        position: relative;
+        img {
+            position: relative;
+            text-align: center;
+            right: 20px;
+            top: 1px;
+            transform: rotate(0deg);
+            transition: transform 0.3s ease-in-out;
+        }
+        &:hover {
+            img{
+                transform: rotate(180deg);
+                transition: transform 0.3s ease-in-out;
+            }
+        }
+    }
+
+}
